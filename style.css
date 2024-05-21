@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(230, 17%, 14%);
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: hsl(232, 19%, 15%);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  height: 30%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0.7rem 6rem;
+}
+
+.page-title h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.page-title p {
+  color: hsla(225, 10%, 77%, 0.712);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
+  padding: 0 6rem;
+  margin-top: -5rem;
+}
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-bottom: 0.7rem;
+}
+
+.image-div {
+  width: 15px;
+}
+
+.image-div img {
+  width: 100%;
+}
+
+.card-title p {
+  color: hsla(225, 10%, 77%, 0.712);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.card-followers {
+  padding-bottom: 0.7rem;
+}
+.card-followers h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-followers p {
+  color: hsla(225, 10%, 77%, 0.712);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.card-today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.7rem;
+}
+
+.card-today p {
+  color: hsl(163, 72%, 41%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.bottom-section {
+  padding: 1rem 6rem;
+}
+.overview h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.overview-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.overview-card {
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+}
+
+.bottom-card-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 0.7rem;
+}
+
+.bottom-card-title p {
+  color: hsla(225, 10%, 77%, 0.712);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.bottom-card-title img {
+  width: 15px;
+}
+
+.bottom-card-followers{
+   display: flex;
+   justify-content: space-between;
+
+   padding-bottom: 0.7rem;
+}
+
+.bottom-card-followers h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* media queries */
